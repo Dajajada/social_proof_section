@@ -7,7 +7,8 @@
 }
 body{
     font-family: 'Spartan', sans-serif;
-    background-color: var(--White);
+    background: url("./images/bg-pattern-top-mobile.svg") top left no-repeat;
+    
 }
 .header{
     text-align: center;
@@ -78,6 +79,7 @@ body{
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
         padding: 5% 3% 3%  5%;
+        background: url("./images/bg-pattern-top-desktop.svg" ) top left no-repeat;
     }
     .header{
         grid-column: 1 /2;
@@ -103,7 +105,6 @@ body{
         min-height: 250px;
         max-height: 270px;
     }
-   
     .rated{
         height: 35px;
         display: flex;
