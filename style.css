@@ -5,10 +5,11 @@
    --Very-Dark-Magenta: hsl(300, 43%, 22%);
     --Soft-Pink: hsl(333, 80%, 67%);
 }
+html{
+    background:url("./images/bg-pattern-top-mobile.svg") no-repeat top left;   
+}
 body{
-    font-family: 'Spartan', sans-serif;
-    background: url("./images/bg-pattern-top-mobile.svg") top left no-repeat;
-    
+    font-family: 'Spartan', sans-serif; 
 }
 .header{
     text-align: center;
@@ -73,13 +74,15 @@ body{
 }
 
 @media (min-width:750px){
-
+    html{
+        background:url("./images/bg-pattern-top-desktop.svg") no-repeat top left; 
+    }
     body{
         display:grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
         padding: 5% 3% 3%  5%;
-        background: url("./images/bg-pattern-top-desktop.svg" ) top left no-repeat;
+        
     }
     .header{
         grid-column: 1 /2;
